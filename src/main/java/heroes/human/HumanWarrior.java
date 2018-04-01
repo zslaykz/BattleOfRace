@@ -6,7 +6,7 @@ import race.impl.HumanRace;
 public class HumanWarrior extends HumanRace implements Actions {
 
 
-    public void attack() {
-
+    public int attack() {
+        return 0;
     }
 }

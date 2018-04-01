@@ -5,14 +5,14 @@ import lombok.NoArgsConstructor;
 
 @Getter
 @NoArgsConstructor
-public class Race {
+public abstract class Race {
 
 
-    private String nameOfHero;
+    private String nameOfRace;
     private int damage;
 
     public Race(String nameOfHero, int damage) {
-        this.nameOfHero = nameOfHero;
+        this.nameOfRace = nameOfHero;
         this.damage = damage;
     }
 }
