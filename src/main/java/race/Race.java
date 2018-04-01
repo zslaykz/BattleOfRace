@@ -9,10 +9,10 @@ public abstract class Race {
 
 
     private String nameOfRace;
-    private int damage;
+    private int healht;
 
     public Race(String nameOfHero, int damage) {
         this.nameOfRace = nameOfHero;
-        this.damage = damage;
+        this.healht = 100;
     }
 }
