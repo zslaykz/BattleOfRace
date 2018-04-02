@@ -1,4 +1,4 @@
-package enemy.race;
+package enemy.heroEnemy;
 
 import enemy.race.Monster;
 
